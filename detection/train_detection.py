@@ -1,3 +1,4 @@
+#Параметры сети изменять в зависимости от данных
 def train(dataset, val_dataset=None, epochs=10):
     if not isinstance(dataset, DataLoader):
         dataset = DataLoader(dataset, shuffle=True)
